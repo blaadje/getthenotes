@@ -1,0 +1,330 @@
+[16:21:57] Syncronizing built-in extensions...
+[16:21:57] You can manage built-in extensions with the --builtin flag
+[16:21:57] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:21:57] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:21:57] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[90m[main 16:21:57][0m update#ctor - updates are disabled
+2018-11-18 16:21:57.908 Electron[85811:2040770] *** WARNING: Textured window <AtomNSWindow: 0x7ffd29ed3130> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[85811:1118/162159.759583:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[85811:1118/162159.955593:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/6a8c5b6f-7a25-4150-ab3c-016301cb5daa", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[85811:1118/162200.181714:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[85811:1118/162200.592542:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85811:1118/162200.592790:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85811:1118/162200.593219:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85811:1118/162200.613341:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[1118/162201.466202:ERROR:archive.cc(167)] Failed to parse header size from /Users/alex/projects/vscode3/extensions/css-language-features/server/test/pathCompletionFixtures/src/data/foo.asar
+[1118/162201.986340:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/.build/electron/Code - OSS.app/Contents/Resources/default_app.asar: FILE_ERROR_NOT_A_DIRECTORY
+[1118/162201.986425:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/.build/electron/Code - OSS.app/Contents/Resources/electron.asar: FILE_ERROR_NOT_A_DIRECTORY
+[1118/162202.416525:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/extensions/css-language-features/server/test/pathCompletionFixtures/src/data/foo.asar: FILE_ERROR_NOT_A_DIRECTORY
+[16:22:26] Syncronizing built-in extensions...
+[16:22:26] You can manage built-in extensions with the --builtin flag
+[16:22:26] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:22:26] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:22:26] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[90m[main 16:22:26][0m update#ctor - updates are disabled
+2018-11-18 16:22:26.708 Electron[85853:2041424] *** WARNING: Textured window <AtomNSWindow: 0x7fe398ee4960> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[85853:1118/162228.603029:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[85853:1118/162228.835317:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/aae17f46-ca8f-4a4f-ad84-e3b1fefc779f", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[85853:1118/162229.115148:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[85853:1118/162229.584872:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85853:1118/162229.585112:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85853:1118/162229.585796:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85853:1118/162229.608609:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[1118/162230.539352:ERROR:archive.cc(167)] Failed to parse header size from /Users/alex/projects/vscode3/extensions/css-language-features/server/test/pathCompletionFixtures/src/data/foo.asar
+[1118/162231.036457:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/.build/electron/Code - OSS.app/Contents/Resources/default_app.asar: FILE_ERROR_NOT_A_DIRECTORY
+[1118/162231.038863:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/.build/electron/Code - OSS.app/Contents/Resources/electron.asar: FILE_ERROR_NOT_A_DIRECTORY
+[1118/162231.464762:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/extensions/css-language-features/server/test/pathCompletionFixtures/src/data/foo.asar: FILE_ERROR_NOT_A_DIRECTORY
+[16:22:56] Syncronizing built-in extensions...
+[16:22:56] You can manage built-in extensions with the --builtin flag
+[16:22:56] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:22:56] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:22:56] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[90m[main 16:22:56][0m update#ctor - updates are disabled
+2018-11-18 16:22:56.673 Electron[85889:2041855] *** WARNING: Textured window <AtomNSWindow: 0x7f83be4d6900> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[85889:1118/162258.713454:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[85889:1118/162258.925384:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/6f1430db-2714-42e4-a7f9-0f9d0ca92042", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[85889:1118/162259.134337:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[85889:1118/162259.574069:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85889:1118/162259.574438:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85889:1118/162259.574933:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85889:1118/162259.596336:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[1118/162300.494091:ERROR:archive.cc(167)] Failed to parse header size from /Users/alex/projects/vscode3/extensions/css-language-features/server/test/pathCompletionFixtures/src/data/foo.asar
+[1118/162300.908826:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/.build/electron/Code - OSS.app/Contents/Resources/default_app.asar: FILE_ERROR_NOT_A_DIRECTORY
+[1118/162300.908925:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/.build/electron/Code - OSS.app/Contents/Resources/electron.asar: FILE_ERROR_NOT_A_DIRECTORY
+[1118/162301.295301:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/extensions/css-language-features/server/test/pathCompletionFixtures/src/data/foo.asar: FILE_ERROR_NOT_A_DIRECTORY
+[16:23:09] Syncronizing built-in extensions...
+[16:23:09] You can manage built-in extensions with the --builtin flag
+[16:23:09] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:23:09] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:23:09] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[90m[main 16:23:09][0m update#ctor - updates are disabled
+2018-11-18 16:23:09.968 Electron[85924:2042288] *** WARNING: Textured window <AtomNSWindow: 0x7f8e9a5c4d90> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[85924:1118/162311.859778:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[85924:1118/162312.036312:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/e53efc3f-186c-4a21-bb33-6b4ba060427d", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[85924:1118/162312.269601:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[85924:1118/162312.699761:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85924:1118/162312.700073:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85924:1118/162312.700714:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85924:1118/162312.720220:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[1118/162313.696271:ERROR:archive.cc(167)] Failed to parse header size from /Users/alex/projects/vscode3/extensions/css-language-features/server/test/pathCompletionFixtures/src/data/foo.asar
+[1118/162314.142660:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/.build/electron/Code - OSS.app/Contents/Resources/default_app.asar: FILE_ERROR_NOT_A_DIRECTORY
+[1118/162314.144974:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/.build/electron/Code - OSS.app/Contents/Resources/electron.asar: FILE_ERROR_NOT_A_DIRECTORY
+[1118/162314.532186:WARNING:archive.cc(145)] Opening /Users/alex/projects/vscode3/dist/mac/Mincode.app/Contents/Resources/app.asar/extensions/css-language-features/server/test/pathCompletionFixtures/src/data/foo.asar: FILE_ERROR_NOT_A_DIRECTORY
+[16:23:36] Syncronizing built-in extensions...
+[16:23:36] You can manage built-in extensions with the --builtin flag
+[16:23:36] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:23:36] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:23:36] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[90m[main 16:23:37][0m update#ctor - updates are disabled
+2018-11-18 16:23:37.369 Electron[85959:2042791] *** WARNING: Textured window <AtomNSWindow: 0x7fd438cd1ee0> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[85959:1118/162339.351602:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[85959:1118/162339.603871:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/e175cbd9-3a61-4b43-b4d8-2faa813e61f1", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[85959:1118/162339.684922:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[85959:1118/162339.982933:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85959:1118/162339.983266:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85959:1118/162339.983416:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85959:1118/162340.000535:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[85959:1118/162402.042668:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[85959:1118/162402.236014:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/87fd6d65-07a1-4a8f-86b7-2c3c677e5051", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[85959:1118/162402.313938:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[85959:1118/162402.711863:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85959:1118/162402.712205:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85959:1118/162402.712851:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[85959:1118/162402.727644:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[16:24:29] Syncronizing built-in extensions...
+[16:24:29] You can manage built-in extensions with the --builtin flag
+[16:24:29] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:24:29] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:24:29] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[90m[main 16:24:29][0m update#ctor - updates are disabled
+2018-11-18 16:24:29.578 Electron[86043:2043757] *** WARNING: Textured window <AtomNSWindow: 0x7f94e94d0a20> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[86043:1118/162431.593547:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[86043:1118/162431.972769:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/667358f9-021a-45ba-bb5f-72669a45c228", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[86043:1118/162432.144924:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[86043:1118/162432.363835:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86043:1118/162432.364335:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86043:1118/162432.364630:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86043:1118/162432.384579:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[16:25:59] Syncronizing built-in extensions...
+[16:25:59] You can manage built-in extensions with the --builtin flag
+[16:25:59] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:25:59] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:25:59] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[90m[main 16:26:00][0m update#ctor - updates are disabled
+2018-11-18 16:26:00.391 Electron[86145:2045167] *** WARNING: Textured window <AtomNSWindow: 0x7f8c0f7dd4a0> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[86145:1118/162602.599761:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[86145:1118/162602.829463:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/7152ef61-6ecb-4ffe-996c-e8e355a67ce7", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[86145:1118/162602.994993:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[86145:1118/162603.313144:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/162603.313857:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/162603.314156:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/162603.334830:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[16:36:34] Syncronizing built-in extensions...
+[16:36:34] You can manage built-in extensions with the --builtin flag
+[16:36:34] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:36:34] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:36:34] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[16:36:45] Syncronizing built-in extensions...
+[16:36:45] You can manage built-in extensions with the --builtin flag
+[16:36:45] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[16:36:45] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[16:36:45] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[86145:1118/163648.091705:INFO:CONSOLE(246)] "%c[Extension Host] %cProvided debugging port 5870 is not free, using 5871 instead.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (246)
+[86145:1118/163648.092929:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5871", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[86145:1118/163648.318824:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5871/831a2dd6-0305-43c0-a221-018556c3775c", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[86145:1118/163648.449043:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[86145:1118/163648.783540:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/163648.784126:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/163648.784365:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/163648.799758:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[86145:1118/211757.128889:WARNING:dns_config_service_posix.cc(351)] Failed to read DnsConfig.
+[86145:1118/211835.411461:INFO:CONSOLE(100)] "%c[Extension Host] %cApplicationInsights:CorrelationIdManager", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/211837.455153:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[86145:1118/211837.751480:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/d67195c7-3155-47ce-85ae-8b06fc247412", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[86145:1118/211837.882220:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[86145:1118/211838.169630:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/211838.170071:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/211838.170440:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/211838.188822:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[86145:1118/211838.218913:INFO:CONSOLE(100)] "%c[Extension Host] %cApplicationInsights:CorrelationIdManager", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/211904.608317:INFO:CONSOLE(246)] "%c[Extension Host] %cProvided debugging port 5870 is not free, using 5871 instead.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (246)
+[86145:1118/211904.608435:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5871", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[86145:1118/211904.838482:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5871/15ce12ac-fed5-402c-bdf6-76d2df27b431", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[86145:1118/211905.017325:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[86145:1118/211905.374098:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/211905.374566:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/211905.375276:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86145:1118/211905.396312:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[86145:1118/211905.448841:INFO:CONSOLE(100)] "%c[Extension Host] %cApplicationInsights:CorrelationIdManager", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[21:19:31] Syncronizing built-in extensions...
+[21:19:31] You can manage built-in extensions with the --builtin flag
+[21:19:31] [marketplace] ms-vscode.node-debug@1.30.1 ✔︎
+[21:19:31] [marketplace] ms-vscode.node-debug2@1.30.1 ✔︎
+[21:19:31] [marketplace] ms-vscode.references-view@0.0.9 ✔︎
+[86716:1118/211931.527252:WARNING:dns_config_service_posix.cc(351)] Failed to read DnsConfig.
+Failed to load browser extensions from directory: /Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions
+{ Error: ENOENT: no such file or directory, open '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions'
+    at Object.fs.openSync (fs.js:577:3)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:166:20)
+    at Object.fs.readFileSync (fs.js:483:33)
+    at Object.fs.readFileSync (ELECTRON_ASAR.js:563:29)
+    at App.<anonymous> (/Users/alex/projects/vscode3/.build/electron/Code - OSS.app/Contents/Resources/electron.asar/browser/chrome-extension.js:419:52)
+    at Object.onceWrapper (events.js:273:13)
+    at App.emit (events.js:187:15)
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path:
+   '/Users/alex/Library/Application Support/code-oss-dev/DevTools Extensions' }
+[90m[main 21:19:31][0m update#ctor - updates are disabled
+2018-11-18 21:19:31.786 Electron[86716:2091188] *** WARNING: Textured window <AtomNSWindow: 0x7fe178cbdf00> is getting an implicitly transparent titlebar. This will break when linking against newer SDKs. Use NSWindow's -titlebarAppearsTransparent=YES instead.
+[86716:1118/211933.666714:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[86716:1118/211933.907306:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/d4b63ab6-ae19-48e0-8d2c-dae1b763a808", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[86716:1118/211934.365954:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/211934.366323:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/211934.366568:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/211934.396815:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[86716:1118/211934.424324:INFO:CONSOLE(100)] "%c[Extension Host] %cApplicationInsights:CorrelationIdManager", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/211936.668442:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[86716:1118/212144.018031:INFO:CONSOLE(377)] "Line (eval("/** @lice...): longer than 20k characters, tokenization skipped.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/textMate/electron-browser/TMSyntax.js (377)
+[86716:1118/212148.753998:INFO:CONSOLE(100)] "%c[Extension Host] %cApplicationInsights:CorrelationIdManager", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/212200.548804:INFO:CONSOLE(158)] "Error querying extensions gallery", source: file:///Users/alex/projects/vscode3/out/vs/workbench/parts/extensions/electron-browser/extensionsViews.js (158)
+[86716:1118/212216.373159:INFO:CONSOLE(100)] "%c[Extension Host] %cApplicationInsights:CorrelationIdManager", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/212218.878864:INFO:CONSOLE(100)] "%c[Extension Host] %cCannot execute reason.showMerlinFiles because there is no active text editor. %c(at /Users/alex/projects/vscode3/out/vs/workbench/api/node/extHost.api.impl.js:164:37)", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+Debugger listening on ws://127.0.0.1:5876/8240b8d0-5481-49a8-b675-e595a8493333
+For help, see: https://nodejs.org/en/docs/inspector
+[86716:1118/213420.031351:INFO:CONSOLE(252)] "%c[Extension Host] %cdebugger listening on port 5870", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (252)
+[86716:1118/213420.345108:INFO:CONSOLE(164)] "%c[Extension Host] %cdebugger inspector at chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:5870/7051b9d9-b95c-4c9b-b268-9509f0abf9df", source: file:///Users/alex/projects/vscode3/out/vs/workbench/services/extensions/electron-browser/extensionHost.js (164)
+[86716:1118/213421.190090:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'. %c(at Object.showMessage (/Users/alex/projects/vscode3/out/vs/workbench/api/node/extHostExtensionService.js:182:41))", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/213421.190621:INFO:CONSOLE(100)] "%c[Extension Host] %cActivating extension `CoenraadS.bracket-pair-colorizer-2` failed: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/213421.191095:INFO:CONSOLE(100)] "%c[Extension Host] %cHere is the error stack: ", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/213421.208005:INFO:CONSOLE(45)] "Activating extension 'CoenraadS.bracket-pair-colorizer-2' failed: Cannot find module '/Users/alex/projects/vscode3/node_modules.asar/vscode-textmate'.", source: file:///Users/alex/projects/vscode3/out/vs/workbench/browser/parts/notifications/notificationsAlerts.js (45)
+[86716:1118/213421.234531:INFO:CONSOLE(100)] "%c[Extension Host] %cApplicationInsights:CorrelationIdManager", source: file:///Users/alex/projects/vscode3/out/vs/base/node/console.js (100)
+[86716:1118/213431.780087:INFO:CONSOLE(185)] "%c INFO", source: file:///Users/alex/projects/vscode3/out/vs/platform/log/common/log.js (185)
+[91m[main 22:43:41][0m [VS Code]: render process crashed!
